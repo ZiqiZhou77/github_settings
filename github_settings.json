@@ -1,1 +1,94 @@
-{"ecomStore":{"largeOrderThresholdCount":0,"largeOrderCapUtilizationPerc":0,"operatingStatus":"ACTIVE","isDUGStore":true,"isWFC":false,"is3PLStore":true,"isPremiumStore":true,"isDeliveryStore":true,"isHybridStore":true,"storeFeatures":{"isErumStore":true,"isGuestCartEnabled":false,"isMFC":false,"isAutoReplenishmentEnabled":true,"isSNAP2Eligible":true,"isSubstitutions2Enabled":true,"isExpressStore":false,"isWGDEnabled":false,"isStoreTippingEnabled":false,"isDarkStore":false,"isWineD2CEnabled":true,"isScanAndPayEnabled":false,"isPaymentV2":true,"isSNAPEligible":false,"isSIPEnabled":true,"isFullAuthEnabled":true,"isEditOrderEnabled":true,"isWYSIWYGEnabled":true,"isEnterpriseTaxation":true,"isSubscriptionUDC":true,"isRolloutWYSIWYGEnabled":true,"isPromisePlatformStore":true,"isHourlyStore":false,"isSequentialTenderingMLModel":false,"isOttValveEnabled":false,"isFlashDugEnabled":true,"isFlashDeliveryEnabled":true,"isFlash2Enabled":false,"isApprovedSubsEnabled":false,"is3PLBatching":false,"is3PLShopAndDriveEnabled":false,"isAltPickUpEnabled":true,"isMerchPickingEnabled":false,"isDirectedSpendEnabled":true,"isFoodIsMedicineNBEnabled":false,"isCustomerCentricTillingEnabled":false,"isSNSCNCEnabled":true,"isBagFeeWaivedforEBT":false,"isB2BStore":false,"isDeliveryPreference":true,"isPrePickingEnabled":true,"isIntradayFastPickingEnabled":false,"isISMLocationServiceEnabled":false,"is2WayCommunication":false,"isFoodIsMedicineBentoEnabled":false,"isSNSB2BEnabled":false},"mappedZipCodes":["94612","94608","94607","94618","94617","94609"],"isPickupStore":true,"pickupFeature":{},"isEnterpriseTaxation":false,"wfcStoreId":5799,"storeCardFlag":true,"isDUGLightArrivalEnabled":false,"isDUGArrivalEnabled":true,"isMSTEnabled":false,"slotDisplayDays":7,"isDivestitureStore":false,"isKrogerStore":false,"polarisBannerName":"safeway","isMKPEnabled":"true"},"timezone":"America/Los_Angeles"}
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Smart Watch",
+      "price": 99.99,
+      "description": "A smart watch with fitness tracking and notification features.",
+      "category": "Electronics",
+      "brand": "XYZ",
+      "availability": true,
+      "ratings": {
+        "average": 4.2,
+        "count": 150
+      },
+      "images": [
+        "https://example.com/watch_image1.jpg",
+        "https://example.com/watch_image2.jpg"
+      ],
+      "tags": ["smart", "watch", "fitness"]
+    },
+    {
+      "id": "2",
+      "name": "Wireless Headphones",
+      "price": 79.99,
+      "description": "High-quality wireless headphones with noise-cancelling feature.",
+      "category": "Electronics",
+      "brand": "ABC",
+      "availability": false,
+      "ratings": {
+        "average": 4.5,
+        "count": 200
+      },
+      "images": [
+        "https://example.com/headphones_image1.jpg",
+        "https://example.com/headphones_image2.jpg"
+      ],
+      "tags": ["headphones", "wireless", "noise-cancelling"]
+    },
+    {
+      "id": "3",
+      "name": "Backpack",
+      "price": 39.99,
+      "description": "A durable backpack with multiple compartments for storage.",
+      "category": "Fashion",
+      "brand": "FashionX",
+      "availability": true,
+      "ratings": {
+        "average": 4.0,
+        "count": 100
+      },
+      "images": [
+        "https://example.com/backpack_image1.jpg",
+        "https://example.com/backpack_image2.jpg"
+      ],
+      "tags": ["backpack", "travel", "storage"]
+    },
+    {
+      "id": "4",
+      "name": "Coffee Maker",
+      "price": 49.99,
+      "description": "A coffee maker that brews delicious coffee quickly and easily.",
+      "category": "Home & Kitchen",
+      "brand": "CoffeeCo",
+      "availability": true,
+      "ratings": {
+        "average": 4.7,
+        "count": 300
+      },
+      "images": [
+        "https://example.com/coffee_maker_image1.jpg",
+        "https://example.com/coffee_maker_image2.jpg"
+      ],
+      "tags": ["coffee", "maker", "kitchen"]
+    },
+    {
+      "id": "5",
+      "name": "Running Shoes",
+      "price": 69.99,
+      "description": "Comfortable running shoes with great cushioning and support.",
+      "category": "Sports",
+      "brand": "SportyFeet",
+      "availability": true,
+      "ratings": {
+        "average": 4.3,
+        "count": 120
+      },
+      "images": [
+        "https://example.com/shoes_image1.jpg",
+        "https://example.com/shoes_image2.jpg"
+      ],
+      "tags": ["shoes", "running", "sports"]
+    }
+  ]
+}
